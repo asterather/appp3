@@ -1,0 +1,17 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: appp3_dev
+  host: localhost
+  pool: 5
+  username: postgres
+  password: postgres
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: appp3_test
+  host: localhost
+  pool: 5
+  username: postgres
+  password: postgres
